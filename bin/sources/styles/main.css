@@ -4,20 +4,51 @@ main {
     padding: 150px;
 }
 
-section header h1 {
-    margin:0;
-    padding:0;
-    font-size: 6em;
+main > h1{
+    font-size: 4em;
+    color: #03B5E2;
 }
 
-section header h2 {
-    font-size: 5em;
+main > h2{
+    font-size: 2em;
+    font-weight: 300;
+    color: #444444;
 }
 
-section header p {
-    font-size : 1.7em
+main section > header > h1 {
+    font-size: 1.5em;
+    color: #005a9b;
+    font-weight: 500;
 }
 
-section article {
+main article {
+    width: 50%;
+}
 
+main article h1 {
+    font-size: 1.2em;
+    color: #005a9b;
+    font-weight: 500;
+}
+
+main ul.photo-list {
+    margin: 0;
+    padding: 0;
+}
+
+main ul.photo-list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main .photo-list li{
+    float: left;
+    list-style: none;
+    margin:0 10px 0 0;
+    padding: 0;
+}
+
+main .photo-list li img{
+    height: 100px;
 }

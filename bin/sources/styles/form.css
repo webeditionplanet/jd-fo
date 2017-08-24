@@ -1,0 +1,21 @@
+form select {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #444444;
+    padding: 0 15px;
+    font-size: 1em;
+}
+
+form input[type=text]{
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    color: #444444;
+    padding: 0 15px;
+    font-size: 1em;
+}
+
+form .input-button
